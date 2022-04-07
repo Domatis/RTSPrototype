@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 600934e1198a28948be2574aa7672864, type: 3}
+  m_Name: MixedSpawnPattern
+  m_EditorClassIdentifier: 
+  secUntilSpawnStart: 300
+  spawnBehaviours:
+  - enemyPrefab: {fileID: 8015492125560644461, guid: 6ba1d8849c9a6494f9f8f5f728aef721,
+      type: 3}
+    spawnSec: 45
+    spawnReadyCount: 1
+    secActiveTime: 180
+  - enemyPrefab: {fileID: 7217412307660695892, guid: 04c007fe372e6d94da23539663e351c1,
+      type: 3}
+    spawnSec: 45
+    spawnReadyCount: 1
+    secActiveTime: 240
+  - enemyPrefab: {fileID: 7217412307660695892, guid: 04c007fe372e6d94da23539663e351c1,
+      type: 3}
+    spawnSec: 30
+    spawnReadyCount: 2
+    secActiveTime: 1000

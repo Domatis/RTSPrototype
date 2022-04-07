@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5264d756126aab6449673174588751a0, type: 3}
+  m_Name: CreateWoodenGateAbility
+  m_EditorClassIdentifier: 
+  abilityimage: {fileID: 21300000, guid: 09e9ac7db539dd74f8afde91a257085e, type: 3}
+  abilityDescription: Turn this wall to wooden gate
+  woodenGatePrefab: {fileID: 2399508003308260321, guid: 3a45f78432f41244ca42cfd1bce3db80,
+    type: 3}
+  requirements:
+  - requirementsType: 0
+    minRequirementValue: 25
