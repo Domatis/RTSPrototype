@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Builds
+  - Resources
+  - Terrain
+  - Plane
+  - Collide
+  - Terrain2
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Terrain
+  - BuildPlacement
+  - Builds
+  - PlayerObjects
+  - EnemyObjects
+  - PlayerObjectDetection
+  - Resources
+  - EnemyObjectDetection
+  - Minimap
+  - FogOfWar
+  - VisibleFogObject
+  - VisibleFogInteractor
+  - PlayerUnitInteractionLayer
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
